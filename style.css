@@ -35,6 +35,11 @@ img {
 
 
 /* BASE */
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font: 400 1.6rem 'DM Sans', sans-serif;
     color: var(--text-color);
@@ -195,6 +200,13 @@ nav ul li a:hover {
 nav .menu {
     opacity: 0;
     visibility: hidden;
+    top: -20rem;
+    transform: 0.2s;
+}
+
+nav .menu ul {
+    display: none;
+
 }
 /* Show Menu */
 nav.show .menu {
@@ -233,13 +245,16 @@ nav .icon-close {
     opacity: 0;
 
     position: absolute;
+    top: -1.5rem;
     right: 1.75rem;
-    /* TRANSICAO SHOW*/
+    
+    transition: 0.2s;
 }
 
-nav.show .icon-close{
+nav.show div.icon-close{
    visibility: visible; 
    opacity: 1;
+   top: 1.5rem;
 }
 
 
