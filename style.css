@@ -69,9 +69,7 @@ body {
 .divider-1 {
     height: 1px;
     background: linear-gradient(
-        270deg,
-        hsla(var(--hue), 159, 36%, 57%, 1),
-        hsla(var(--hue), 159, 65%, 88%, 0.34) 
+        270deg, green, white
     );
 }
 
@@ -391,3 +389,16 @@ nav.show div.icon-close{
      font-size: 2.4rem;
      margin-bottom: 1.2rem;
  }
+
+ /* TESTIMONIALS */
+
+#testimonials {
+    background: white;
+}
+
+#testimonials blockquote {
+    padding: 3.2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25rem;
+
+}
