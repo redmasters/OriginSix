@@ -432,3 +432,13 @@ nav.show div.icon-close{
     margin-right: 0.8rem;
 
 }
+
+/* Swiper */
+.swiper-slide {
+    height: auto;
+    padding: 6.4rem 1.6rem;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--base-color);
+}
